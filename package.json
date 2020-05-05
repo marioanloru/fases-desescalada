@@ -3,10 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "description": "App to check spain coronovaris state by province",
-  "engines": {
-    "node": "14.1.x",
-    "npm": "6.x"
-  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -21,7 +17,7 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
-    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-plugin-eslint": "^4.3.1",
     "@vue/cli-service": "~4.3.0",
     "@vue/eslint-config-airbnb": "^5.0.2",
     "babel-eslint": "^10.1.0",
@@ -30,6 +26,10 @@
     "eslint-plugin-vue": "^6.2.2",
     "lint-staged": "^9.5.0",
     "vue-template-compiler": "^2.6.11"
+  },
+  "engines": {
+    "node": "14.1.x",
+    "npm": "6.x"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
