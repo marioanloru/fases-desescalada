@@ -2,6 +2,11 @@
   "name": "fases-desescalada",
   "version": "0.1.0",
   "private": true,
+  "description": "App to check spain coronovaris state by province",
+  "engines": {
+    "node": "14.1.x",
+    "npm": "6.x"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
