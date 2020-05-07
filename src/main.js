@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import VueMeta from 'vue-meta'
+import VueAnalytics from 'vue-analytics'
 /*  import HighchartsVue from 'highcharts-vue'
 import Highcharts from 'highcharts'
 import stockInit from 'highcharts/modules/stock'
@@ -14,6 +15,9 @@ addWorldMap(Highcharts)
 Vue.use(HighchartsVue)  */
 
 Vue.use(VueMeta);
+Vue.use(VueAnalytics, {
+  id: 'UA-165876127-1'
+})
 
 new Vue({
   el: '#app',

@@ -6,6 +6,11 @@
 <script>
 
 export default {
+  methods: {
+    track () {
+      this.$ga.page('/')
+    }
+  },
   data () {
     return {
       mapOptions: {
