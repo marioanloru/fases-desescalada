@@ -13,6 +13,13 @@ import MapChart from './components/MapChart'
 
 export default {
   name: 'app',
+  metaInfo: {
+    title: "Fases de la desescalada por provincias",
+    description: "Consulte las fases de la desescalada en España por provincias de forma interactiva",
+    keywords: "desescalada,fases,coronavirus,COVID-19,España,Spain,confinamiento,estadodealarma,estado de alarma,",
+    robots: "index, follow",
+    language: "Spanish"
+  },
   data () {
     return {
       selected: 'mapChart',

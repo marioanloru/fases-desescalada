@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
+import VueMeta from 'vue-meta'
 /*  import HighchartsVue from 'highcharts-vue'
 import Highcharts from 'highcharts'
 import stockInit from 'highcharts/modules/stock'
@@ -11,6 +12,8 @@ mapInit(Highcharts)
 addWorldMap(Highcharts)
 
 Vue.use(HighchartsVue)  */
+
+Vue.use(VueMeta);
 
 new Vue({
   el: '#app',
