@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" >
     <keep-alive>
       <component :is="currentView"></component>
     </keep-alive>
@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import Chart from './components/Chart.vue'
-import StockChart from './components/StockChart'
+/*  import Chart from './components/Chart.vue'
+import StockChart from './components/StockChart'  */
 import MapChart from './components/MapChart'
 
 export default {
@@ -20,8 +20,8 @@ export default {
     }
   },
   components: {
-    chart: Chart,
-    stockChart: StockChart,
+    /*  chart: Chart,
+    stockChart: StockChart, */
     mapChart: MapChart
   },
   methods: {

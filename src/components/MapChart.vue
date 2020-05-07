@@ -1,5 +1,6 @@
 <template>
-  <highcharts :constructor-type="'mapChart'" :options="mapOptions" class="map"></highcharts>
+  <!--<highcharts :constructor-type="'mapChart'" :options="mapOptions" class="map"></highcharts>-->
+  <iframe style="height: 80vh; width: 100vh; border-style: none;" src="https://datawrapper.dwcdn.net/rHaXv/11/"></iframe>
 </template>
 
 <script>
@@ -24,7 +25,10 @@ export default {
           }
         },
         colorAxis: {
-          min: 0
+          min: 0,
+          step: 1,
+          max: 3,
+          title: 'Fase'
         },
         series: [{
           name: 'Fase',
