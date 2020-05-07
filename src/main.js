@@ -16,7 +16,8 @@ Vue.use(HighchartsVue)  */
 
 Vue.use(VueMeta);
 Vue.use(VueAnalytics, {
-  id: ['UA-165876127-1', 'UA-165876127-2']
+  id: ['UA-165876127-1', 'UA-165876127-2'],
+  checkDuplicatedScript: true
 })
 
 new Vue({
