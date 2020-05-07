@@ -1,24 +1,24 @@
-# fases-desescalada
+# Mapa para visualizar las fases de desescalada
 
-## Project setup
-```
-npm install
-```
+Puede visitar un ejemplo en funcionamiento en [www.fasesdesescalada.com](http://www.fasesdesescalada.com) o en [www.fasesdesescalada.es](http://www.fasesdesescalada.es) 
 
-### Compiles and hot-reloads for development
+### Compilación y recarga en caliente para desarrollo
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilar y minimizar para entornos de producción
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Lints y arreglar errores de ficheros
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Poner en funcionamiento el servido
+```
+npm run start
+```
+
