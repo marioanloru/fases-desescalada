@@ -1,6 +1,6 @@
 <template>
   <!--<highcharts :constructor-type="'mapChart'" :options="mapOptions" class="map"></highcharts>-->
-  <iframe style="height: 80vh; width: 100vh; border-style: none;" src="https://datawrapper.dwcdn.net/rHaXv/11/"></iframe>
+  <iframe style="height: 100vh; width: 100vh; border-style: none;" src="https://datawrapper.dwcdn.net/rHaXv/11/"></iframe>
 </template>
 
 <script>
