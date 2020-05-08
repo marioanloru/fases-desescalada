@@ -1,6 +1,12 @@
 <template>
   <!--<highcharts :constructor-type="'mapChart'" :options="mapOptions" class="map"></highcharts>-->
-  <iframe style="height: 80vh; width: 100vh; border-style: none;" src="https://datawrapper.dwcdn.net/rHaXv/11/"></iframe>
+  <!--<iframe style="height: 80vh; width: 100vh; border-style: none;" src="https://datawrapper.dwcdn.net/rHaXv/11/"></iframe>-->
+  <div>
+    <h3>Fases en las que entrará cada zona y provincia de España el Lunes 11</h3>
+    <img style="max-width: 85%" src="../assets/mapa-espana.png">
+
+
+  </div>
 </template>
 
 <script>
