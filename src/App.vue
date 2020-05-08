@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" style="width: 100vw;">
     <keep-alive>
       <component :is="currentView"></component>
     </keep-alive>
